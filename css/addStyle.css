@@ -1,0 +1,155 @@
+/*Navigation Bar*/
+
+.navbar
+{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.navbar-brand
+{
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: 600;
+}
+.navbar-brand:hover
+{
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: 600;
+}
+.container-fluid
+{
+    
+    display: flex;
+    gap: 60%;
+}
+.navbar-nav
+{
+    display: flex;
+    gap: 10%;
+    font-size: 25px;
+}
+.navbar-nav .nav-link
+{
+    
+    color: #fff;
+}
+.navbar-nav .active
+{
+    color: #EDB909;
+}
+.navbar-nav .nav-link:hover
+{
+    color: rgb(206, 206, 206)
+}
+.navbar-nav .active:hover
+{
+    color: #EDB909;
+}
+
+/*White Section*/
+
+.white-section
+{
+    padding-top: 7%;
+    padding-left: 8%;
+    padding-right: 5%;
+    padding-bottom: 7%;
+    background-color: #fbf8ee;
+}
+.page-container
+{
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+
+    border: 3px;
+    border-color: #353A40;
+    border-style: solid;
+}
+.heading
+{
+    background-image: repeating-linear-gradient(30deg, rgb(233, 133, 133), rgb(233, 133, 133) 30px, rgb(255, 255, 255) 30px, rgb(255, 255, 255) 60px);
+    padding-top: 2%;
+    padding-bottom: 1%;
+
+    text-align: center;
+    color: #000;
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+
+    border: 1px;
+    border-color: #353A40;
+    border-style: solid;
+}
+.form-label
+{
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.form-control
+{
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+
+    border: 1px;
+    border-color: #353A40;
+    border-style: solid;
+}
+.form-select
+{
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    width: 100%;
+}
+.submit-button .btn
+{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 2%;
+
+    width: 100%;
+    height: 60px;
+    border-width: 3px;
+
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+
+/*Grey Section*/
+.grey-section
+{
+    background-color: #353A40;
+}
+.footer
+{
+    padding-left: 5%;
+    padding-top: 2.5%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+}
+.footer-text
+{
+    color: #fff;
+    text-align: center;
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+}
